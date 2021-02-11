@@ -31,7 +31,7 @@ export async function getServerSideProps({ query: request }) {
   const props = {
     request,
     response: await usecase.process(request),
-    schema: usecase.getSchema(request)
+    schema: await usecase.getSchema(request)
   };
   return { props };
 }

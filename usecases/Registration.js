@@ -15,7 +15,7 @@ export default class Registration {
   }
 
   /*eslint no-unused-vars: ["error", { "args": "none" }]*/
-  getSchema(request) {
+  async getSchema(request) {
     const schema = {
       title: 'Guest',
       type: 'object',
