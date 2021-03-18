@@ -22,6 +22,12 @@ Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
 ## Update components
 * Uniforms: `npm i uniforms uniforms-bridge-json-schema uniforms-semantic`
 
+## Scripts overview
+
+1. remove-themes.sh : remove all themes except default, in case you want to create custom theme
+2. semantic-ui-offline.sh : completly remove theme building, switch to semantic-ui-offline
+3. uniformscomponents.sh : setup custom components 
+
 ## Semantic UI React
 * Installed and used by default.
 * Using React components is recommended.
