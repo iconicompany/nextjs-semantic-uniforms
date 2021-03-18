@@ -11,7 +11,7 @@ Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
 * React 17.0
 * Fomantic-UI 2.8
 * Styled Components 5.2
-
+* Uniforms 3.2.1
 
 ## Setup
 1. clone repo
@@ -19,6 +19,8 @@ Since version 2.0.0 (of this package), Semantic UI was replaced by Fomantic-UI.
 3. `npm run semantic:build`
 4. `npm run dev`
 
+## Update components
+* Uniforms: `npm i uniforms uniforms-bridge-json-schema uniforms-semantic`
 
 ## Semantic UI React
 * Installed and used by default.

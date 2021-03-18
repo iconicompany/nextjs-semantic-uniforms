@@ -30,9 +30,9 @@
     "react-hook-form": "^6.15.1",
     "semantic-ui-react": "^2.0.3",
     "styled-components": "^5.2.1",
-    "uniforms": "^3.1.0",
-    "uniforms-bridge-json-schema": "^3.1.0",
-    "uniforms-semantic": "^3.1.0"
+    "uniforms": "^3.2.1",
+    "uniforms-bridge-json-schema": "^3.2.1",
+    "uniforms-semantic": "^3.2.1"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
