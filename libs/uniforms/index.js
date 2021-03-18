@@ -1,8 +1,12 @@
 import Ajv from 'ajv';
 import JSONSchemaBridge from 'uniforms-bridge-json-schema';
 var localize = require('ajv-i18n');
+import addFormats from 'ajv-formats';
 
-const ajv = new Ajv({ allErrors: true, useDefaults: true, coerceTypes: true });
+export const ajv = new Ajv({ allErrors: true, useDefaults: true, coerceTypes: true });
+ajv.addKeyword('uniforms');
+ajv.addKeyword('options');
+addFormats(ajv);
 
 export function createValidator(schema) {
   const validator = ajv.compile(schema);

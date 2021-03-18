@@ -22,6 +22,7 @@ export default class Registration {
       properties: {
         firstName: { type: 'string', minLength: 1 },
         lastName: { type: 'string', minLength: 1 },
+        date: { type: 'string', format: 'date' },
         workExperience: {
           description: 'Work experience in years',
           type: 'integer',
